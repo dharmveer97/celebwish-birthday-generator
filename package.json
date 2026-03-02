@@ -1,6 +1,25 @@
 {
-  "name": "erp-landing",
-  "version": "0.1.0",
+  "name": "celebwish-birthday-generator",
+  "version": "1.0.0",
+  "description": "Create stunning celebrity birthday wishes for Instagram Stories & Posts",
+  "author": "Dharmveer Bangar",
+  "license": "MIT",
+  "keywords": [
+    "instagram",
+    "birthday",
+    "celebrity",
+    "wishes",
+    "social-media",
+    "nextjs",
+    "typescript",
+    "tailwindcss",
+    "image-generator",
+    "instagram-stories"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dharmveer97/celebwish-birthday-generator"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",
