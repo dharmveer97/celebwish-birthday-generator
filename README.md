@@ -1,36 +1,264 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CelebWish - Celebrity Birthday Wishes Generator 🎉
 
-## Getting Started
+Create personalized birthday wishes from your favorite celebrities and download them for Instagram Stories & Posts!
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-38bdf8?style=flat-square&logo=tailwind-css)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6?style=flat-square&logo=typescript)
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js 18+ 
+- npm, yarn, pnpm, or bun
+
+### Installation
 
 ```bash
+# Clone the repository
+git clone <your-repo-url>
+cd erp-landing
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# Build the app
+npm run build
 
-## Learn More
+# Start production server
+npm start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🎨 **Professional UI**
+- Modern, responsive design
+- Glassmorphism effects
+- Instagram-authentic styling
+- Dark/Light mode support
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 📱 **Instagram Formats**
+- **Story** (9:16 - 1080x1920px)
+- **Post** (1:1 - 1080x1080px)
+- Perfect dimensions for social media
 
-## Deploy on Vercel
+### 🎭 **3 Story Variants**
+- **Minimal** - Clean and simple
+- **Elegant** - Sophisticated with decorative elements
+- **Bold** - Modern and impactful
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🌈 **10 Gradient Backgrounds**
+- Vibrant colors
+- Dark/black gradients
+- Instagram-optimized
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 👤 **15+ Celebrities**
+- Sydney Sweeney, Zendaya, Taylor Swift
+- Dwayne Johnson, Tom Holland, Margot Robbie
+- Ariana Grande, Billie Eilish, Dua Lipa
+- Cristiano Ronaldo, LeBron James
+- And more!
+
+### 🎨 **Full Customization**
+- Upload custom celebrity images
+- Custom celebrity name & title
+- Write your own birthday message
+- Add your Instagram handle
+- Personalize with recipient's name
+
+### 📥 **High-Quality Download**
+- 1080x1920 for Stories
+- 1080x1080 for Posts
+- PNG format
+- Ready to post!
+
+## 🎯 How to Use
+
+1. **Select a Celebrity** - Click on any celebrity or upload your own image
+2. **Enter Details**:
+   - Your name (recipient)
+   - Instagram handle (optional)
+   - Custom message (optional)
+3. **Choose Format** - Story or Post
+4. **Select Style** - Minimal, Elegant, or Bold (for stories)
+5. **Pick Background** - Choose from 10 gradients
+6. **Download** - Click download button and post to Instagram!
+
+## 🛠️ Tech Stack
+
+- **Next.js 16** - React framework with App Router & Turbopack
+- **TypeScript** - Type-safe development
+- **Tailwind CSS v4** - No config needed!
+- **Radix UI** - Accessible components
+- **next-themes** - Dark mode
+- **html-to-image** - High-quality exports
+- **react-dropzone** - File uploads
+- **Lucide Icons** - Beautiful icons
+
+## 📁 Project Structure
+
+```
+app/
+├── components/
+│   ├── birthday-wish-generator.tsx  # Main app
+│   ├── theme-provider.tsx           # Theme context
+│   └── theme-toggle.tsx             # Dark/light toggle
+├── data/
+│   └── celebrities.ts               # Celebrity data
+├── globals.css                      # Tailwind v4 + custom styles
+├── layout.tsx                       # Root layout
+└── page.tsx                         # Home page
+```
+
+## 🎨 Customization
+
+### Add New Celebrity
+
+Edit `app/data/celebrities.ts`:
+
+```typescript
+{
+  id: 16,
+  name: "Celebrity Name",
+  title: "Their Title",
+  image: "https://images.unsplash.com/...",
+  category: "Entertainment",
+  premium: false,
+  messages: [
+    "Birthday message 1",
+    "Birthday message 2",
+    "Birthday message 3"
+  ]
+}
+```
+
+### Add New Gradient
+
+Edit `app/data/celebrities.ts`:
+
+```typescript
+export const gradients = [
+  // ... existing gradients
+  "from-cyan-500 via-blue-500 to-purple-500",
+];
+```
+
+### Modify Styles
+
+Edit `app/globals.css` for glassmorphism effects and custom styles.
+
+## 🔧 Scripts
+
+```bash
+npm run dev      # Start development server
+npm run build    # Build for production
+npm start        # Start production server
+npm run lint     # Run ESLint
+```
+
+## 🌐 Environment
+
+No environment variables needed! Everything works out of the box.
+
+## 📱 Social Media Specs
+
+### Instagram Story
+- **Dimensions**: 1080 x 1920 pixels
+- **Aspect Ratio**: 9:16
+- **Format**: PNG
+
+### Instagram Post
+- **Dimensions**: 1080 x 1080 pixels
+- **Aspect Ratio**: 1:1
+- **Format**: PNG
+
+## 🎨 Design Features
+
+- **Glassmorphism** - Frosted glass effects with blur
+- **Text Shadows** - Strong shadows for readability
+- **Instagram UI** - Authentic story interface
+- **Responsive** - Works on all devices
+- **Accessible** - WCAG compliant
+
+## 🚀 Deployment
+
+### Vercel (Recommended)
+
+```bash
+# Install Vercel CLI
+npm i -g vercel
+
+# Deploy
+vercel
+```
+
+Or connect your GitHub repo to Vercel for automatic deployments.
+
+### Other Platforms
+
+Works on any Node.js hosting:
+- Netlify
+- AWS Amplify
+- Railway
+- Render
+- DigitalOcean
+
+## 🐛 Troubleshooting
+
+### Port Already in Use
+
+```bash
+# Kill existing process
+pkill -f "next dev"
+
+# Or use different port
+npm run dev -- -p 3001
+```
+
+### Build Errors
+
+```bash
+# Clean cache
+rm -rf .next
+npm run dev
+```
+
+### TypeScript Errors
+
+```bash
+# Check for errors
+npx tsc --noEmit
+```
+
+## 📄 License
+
+MIT License - feel free to use for personal or commercial projects!
+
+## 🙏 Credits
+
+- Celebrity images from [Unsplash](https://unsplash.com)
+- Icons from [Lucide](https://lucide.dev)
+- Fonts from [Google Fonts](https://fonts.google.com)
+
+## 💡 Tips
+
+- Use **Story format** for Instagram Stories
+- Use **Post format** for Instagram Feed
+- **Dark gradients** work best with light text
+- Add your **@handle** to get tagged
+- **Custom messages** make it more personal
+
+---
+
+**Made with ❤️ using Next.js 16 & Tailwind CSS v4**
+
+Happy Birthday Wishing! 🎂✨

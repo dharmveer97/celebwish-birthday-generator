@@ -1,0 +1,263 @@
+[
+  {
+    "name": "selena gomez",
+    "net_worth": 75000000,
+    "gender": "female",
+    "nationality": "us",
+    "occupation": [
+      "singer",
+      "actor",
+      "fashion_designer",
+      "music_artist",
+      "voice_actor",
+      "dancer"
+    ],
+    "height": 1.65,
+    "birthday": "1992-07-22",
+    "age": 33,
+    "is_alive": true
+  },
+  {
+    "name": "taylor swift",
+    "net_worth": 400000000,
+    "gender": "female",
+    "nationality": "us",
+    "occupation": [
+      "singer-songwriter",
+      "musician",
+      "actor",
+      "guitarist"
+    ],
+    "height": 1.78,
+    "birthday": "1989-12-13",
+    "age": 36,
+    "is_alive": true
+  },
+  {
+    "name": "ariana grande",
+    "net_worth": 150000000,
+    "gender": "female",
+    "nationality": "us",
+    "occupation": [
+      "actor",
+      "singer",
+      "songwriter",
+      "philanthropist"
+    ],
+    "height": 1.53,
+    "birthday": "1993-06-26",
+    "age": 32,
+    "is_alive": true
+  },
+  {
+    "name": "dua lipa",
+    "net_worth": 16000000
+  },
+  {
+    "name": "billie eilish",
+    "net_worth": 25000000
+  },
+  {
+    "name": "zendaya coleman",
+    "net_worth": 15000000,
+    "gender": "female",
+    "nationality": "us",
+    "occupation": [
+      "actor",
+      "singer",
+      "dancer"
+    ],
+    "height": 1.78,
+    "birthday": "1996-09-01",
+    "age": 29,
+    "is_alive": true
+  },
+  {
+    "name": "margot robbie",
+    "net_worth": 26000000,
+    "gender": "female",
+    "nationality": "au",
+    "occupation": [
+      "actor"
+    ],
+    "height": 1.68,
+    "birthday": "1990-07-02",
+    "age": 35,
+    "is_alive": true
+  },
+  {
+    "name": "emma watson",
+    "net_worth": 80000000,
+    "gender": "female",
+    "nationality": "gb",
+    "occupation": [
+      "actor",
+      "model"
+    ],
+    "height": 1.65,
+    "birthday": "1990-04-15",
+    "age": 35,
+    "is_alive": true
+  },
+  {
+    "name": "scarlett johansson",
+    "net_worth": 165000000,
+    "gender": "female",
+    "nationality": "us",
+    "occupation": [
+      "actor",
+      "singer",
+      "model",
+      "voice_actor"
+    ],
+    "height": 1.6,
+    "birthday": "1984-11-22",
+    "age": 41,
+    "is_alive": true
+  },
+  {
+    "name": "the rock dwayne johnson",
+    "net_worth": 320000000,
+    "gender": "male",
+    "nationality": "us",
+    "occupation": [
+      "wrestler",
+      "american_football_player",
+      "actor",
+      "television_producer",
+      "author",
+      "athlete",
+      "film_producer",
+      "voice_actor"
+    ],
+    "height": 1.96,
+    "birthday": "1972-05-02",
+    "age": 53,
+    "is_alive": true
+  },
+  {
+    "name": "tom hollander",
+    "net_worth": 5000000,
+    "gender": "male",
+    "nationality": "gb",
+    "occupation": [
+      "actor",
+      "television_producer",
+      "screenwriter"
+    ],
+    "height": 1.65,
+    "birthday": "1967-08-25",
+    "age": 58,
+    "is_alive": true
+  },
+  {
+    "name": "chris hemsworth",
+    "net_worth": 130000000,
+    "gender": "male",
+    "nationality": "au",
+    "occupation": [
+      "actor"
+    ],
+    "height": 1.9,
+    "birthday": "1983-08-11",
+    "age": 42,
+    "is_alive": true
+  },
+  {
+    "name": "ryan reynolds",
+    "net_worth": 150000000,
+    "gender": "male",
+    "nationality": "ca",
+    "occupation": [
+      "actor",
+      "voice_actor",
+      "film_producer"
+    ],
+    "height": 1.88,
+    "birthday": "1976-10-23",
+    "age": 49,
+    "is_alive": true
+  },
+  {
+    "name": "leonardo dicaprio",
+    "net_worth": 260000000,
+    "gender": "male",
+    "nationality": "us",
+    "occupation": [
+      "actor",
+      "film_producer",
+      "television_producer"
+    ],
+    "height": 1.83,
+    "birthday": "1974-11-11",
+    "age": 51,
+    "is_alive": true
+  },
+  {
+    "name": "cristiano ronaldo",
+    "net_worth": 500000000,
+    "gender": "male",
+    "nationality": "pt",
+    "occupation": [
+      "football_player",
+      "fashion_entrepreneur"
+    ],
+    "height": 1.85,
+    "birthday": "1985-02-05",
+    "age": 41,
+    "is_alive": true
+  },
+  {
+    "name": "lionel messi",
+    "net_worth": 400000000,
+    "gender": "male",
+    "nationality": "ar",
+    "occupation": [
+      "football_player"
+    ],
+    "height": 1.69,
+    "birthday": "1987-06-24",
+    "age": 38,
+    "is_alive": true
+  },
+  {
+    "name": "lebron james",
+    "net_worth": 500000000,
+    "gender": "male",
+    "nationality": "us",
+    "occupation": [
+      "basketball_player",
+      "athlete",
+      "television_producer",
+      "screenwriter",
+      "voice_actor"
+    ],
+    "height": 2.05,
+    "birthday": "1984-12-30",
+    "age": 41,
+    "is_alive": true
+  },
+  {
+    "name": "serena williams",
+    "net_worth": 210000000,
+    "gender": "female",
+    "nationality": "us",
+    "occupation": [
+      "tennis_player",
+      "athlete",
+      "fashion_designer",
+      "actor",
+      "voice_actor",
+      "businessperson",
+      "writer"
+    ],
+    "height": 1.75,
+    "birthday": "1981-09-26",
+    "age": 44,
+    "is_alive": true
+  },
+  {
+    "name": "simone biles",
+    "net_worth": 6000000
+  }
+]
